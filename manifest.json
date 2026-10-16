@@ -1,0 +1,241 @@
+{
+  "name": "snoopy",
+  "asset_pack_version": 1,
+  "source_sprite_version": 2,
+  "description": "Snoopy animation sprite asset pack; requires a separate renderer or pet application.",
+  "atlas": {
+    "path": "assets/spritesheet.png",
+    "format": "PNG",
+    "color_mode": "RGBA",
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 2288,
+    "origin": "top-left",
+    "index_base": 0
+  },
+  "animations": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frame_count": 8,
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frame_count": 8,
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frame_count": 4,
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frame_count": 5,
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frame_count": 8,
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look": {
+    "angle_origin": "up",
+    "angle_direction": "clockwise",
+    "neutral_frame": {
+      "row": 0,
+      "column": 0
+    },
+    "frames": [
+      {
+        "degrees": 0.0,
+        "row": 9,
+        "column": 0
+      },
+      {
+        "degrees": 22.5,
+        "row": 9,
+        "column": 1
+      },
+      {
+        "degrees": 45.0,
+        "row": 9,
+        "column": 2
+      },
+      {
+        "degrees": 67.5,
+        "row": 9,
+        "column": 3
+      },
+      {
+        "degrees": 90.0,
+        "row": 9,
+        "column": 4
+      },
+      {
+        "degrees": 112.5,
+        "row": 9,
+        "column": 5
+      },
+      {
+        "degrees": 135.0,
+        "row": 9,
+        "column": 6
+      },
+      {
+        "degrees": 157.5,
+        "row": 9,
+        "column": 7
+      },
+      {
+        "degrees": 180.0,
+        "row": 10,
+        "column": 0
+      },
+      {
+        "degrees": 202.5,
+        "row": 10,
+        "column": 1
+      },
+      {
+        "degrees": 225.0,
+        "row": 10,
+        "column": 2
+      },
+      {
+        "degrees": 247.5,
+        "row": 10,
+        "column": 3
+      },
+      {
+        "degrees": 270.0,
+        "row": 10,
+        "column": 4
+      },
+      {
+        "degrees": 292.5,
+        "row": 10,
+        "column": 5
+      },
+      {
+        "degrees": 315.0,
+        "row": 10,
+        "column": 6
+      },
+      {
+        "degrees": 337.5,
+        "row": 10,
+        "column": 7
+      }
+    ]
+  },
+  "previews": {
+    "animations": "previews/all-states.gif",
+    "look_directions": "previews/look-directions.gif"
+  },
+  "notes": [
+    "This is repository-specific layout metadata, not an application installation manifest.",
+    "Preview frame durations are read from the supplied GIF previews; runtime timing may be configured by the consuming application.",
+    "Unused cells are fully transparent.",
+    "Look directions are discrete poses; some adjacent-angle transitions have visible pose changes."
+  ]
+}
