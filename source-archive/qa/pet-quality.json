@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "atlas": "./final/spritesheet-extended.png",
+  "encoded_bytes": 1753923,
+  "sha256": "42a14515344ec4a3f1460d20d89f35e8d83468225e4cfef77b996de47dfcebc8",
+  "jump": {
+    "idle_baseline": 203,
+    "jump_baselines": [
+      202,
+      191,
+      149,
+      186,
+      202
+    ],
+    "airborne_lift_pixels": 53,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 96.5,
+    "look_centers_x": [
+      96.5,
+      93.0,
+      93.5,
+      99.0,
+      101.5,
+      103.5,
+      104.5,
+      102.5,
+      94.0,
+      90.0,
+      91.5,
+      93.0,
+      94.5,
+      97.5,
+      99.5,
+      98.5
+    ],
+    "look_widths": [
+      89,
+      92,
+      91,
+      98,
+      101,
+      101,
+      105,
+      99,
+      86,
+      80,
+      89,
+      96,
+      97,
+      93,
+      93,
+      91
+    ],
+    "maximum_center_drift_pixels": 8.0,
+    "maximum_width_ratio": 1.3125
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "000->022.5 diff is a local outlier (2774 pixels vs neighbor average 1264)",
+    "045->067.5 diff is a local outlier (1830 pixels vs neighbor average 1081)",
+    "090->112.5 diff is a local outlier (2353 pixels vs neighbor average 1456)",
+    "157.5->180 diff is a local outlier (3392 pixels vs neighbor average 1644)",
+    "157.5->180 center shift is high (10.4px)"
+  ]
+}

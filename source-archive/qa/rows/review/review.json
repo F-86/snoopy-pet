@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "frames_root": "./qa/rows/review/frames",
+  "states": [
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "./qa/rows/review/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14782,
+          "bbox": [
+            23,
+            7,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 115
+        },
+        {
+          "index": 1,
+          "file": "./qa/rows/review/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14772,
+          "bbox": [
+            23,
+            7,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 105
+        },
+        {
+          "index": 2,
+          "file": "./qa/rows/review/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14462,
+          "bbox": [
+            18,
+            21,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 123
+        },
+        {
+          "index": 3,
+          "file": "./qa/rows/review/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14249,
+          "bbox": [
+            18,
+            18,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 108
+        },
+        {
+          "index": 4,
+          "file": "./qa/rows/review/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14814,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 126
+        },
+        {
+          "index": 5,
+          "file": "./qa/rows/review/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14795,
+          "bbox": [
+            24,
+            7,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 101
+        }
+      ]
+    }
+  ]
+}

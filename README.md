@@ -1,6 +1,6 @@
 # Snoopy Pet
 
-Snoopy 主题的宠物动画素材包：透明 PNG 精灵图、9 组动作，以及 16 个视线方向。
+Snoopy 主题的宠物动画素材包：透明 PNG 精灵图、9 组动作，以及 16 个视线方向。另附完整制作档案，保留生成、修订和 QA 过程的 307 个文件。
 
 本仓库保存可供接入的动画资源。运行宠物仍需单独的渲染程序或宠物应用；仓库不包含桌面程序、安装包或一键导入功能。
 
@@ -22,7 +22,10 @@ GIF 用于浏览效果；集成时请使用保留完整透明通道的 PNG 精�
 - [manifest.json](manifest.json)：布局、动作帧数、预览帧时长和视线方向映射。
 - [previews/all-states.gif](previews/all-states.gif)：9 组动作的连续预览。
 - [previews/look-directions.gif](previews/look-directions.gif)：16 个视线方向的连续预览。
-- [SHA256SUMS](SHA256SUMS)：精灵图、预览和元数据的 SHA-256 校验值。
+- [source-archive/](source-archive/)：完整制作档案，按原目录逐文件保存。
+- [制作档案说明](docs/source-archive.md)：目录索引、路径整理及脚本依赖说明。
+- [逐文件清单](docs/source-archive-inventory.json)：原始与发布后哈希、大小及修改记录。
+- [SHA256SUMS](SHA256SUMS)：全部发布文件的 SHA-256 校验值（不含清单自身）。
 
 ## 精灵图布局
 
@@ -74,7 +77,7 @@ GIF 用于浏览效果；集成时请使用保留完整透明通道的 PNG 精�
 
 - 视线帧由离散姿态组成，部分相邻角度切换仍有轻微跳变；接入时可根据需要增加过渡。
 - PNG 已有透明背景，无需再做色键抠图。不要把 GIF 的展示背景当作原始素材背景。
-- 仓库只保留最终资源及使用说明，不包含生成过程中的中间图、提示词或完整 QA 归档。
+- `source-archive/` 保存全部制作材料，包含中间图、提示词和历史 QA 记录；原始 ZIP 未上传。档案中的辅助脚本依赖外部模块或已有输出，不是完整可运行的生成系统，详见[制作档案说明](docs/source-archive.md)。
 
 ## 校验
 

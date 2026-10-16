@@ -1,0 +1,18 @@
+{
+  "000": {
+    "verdict": "pass",
+    "evidence": "Snout tipped sharply up, nose at top of face, chin/underside revealed, eyes follow upward."
+  },
+  "090": {
+    "verdict": "pass",
+    "evidence": "Long muzzle and nose extend screen-right."
+  },
+  "180": {
+    "verdict": "pass",
+    "evidence": "Head bowed, nose below eyes toward torso and bottom screen."
+  },
+  "270": {
+    "verdict": "pass",
+    "evidence": "Head muzzle and nose extend screen-left while tail/body remain anchored."
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "reason": "Bundled mirror assumes equal slots and clipped the first nose; corrected using bundled connected pose groups and framewise horizontal mirror without resizing or reordering.",
+  "ok": true
+}

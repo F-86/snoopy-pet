@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose lies left of face center; B raised muzzle and nose extend right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A projecting muzzle points left with ear on right; B muzzle points right with ear on left."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose projects right past eyes; B nose projects left past eyes."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A long muzzle extends left of ear; B extends right of ear."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A lowered nose projects right with ear behind left; B lowered nose projects left with ear behind right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A eyes and muzzle angle down-right; B eyes and muzzle angle down-left."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose is right of eyes and neck center; B nose sits slightly left of eyes and neck center."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A nose above eyes with underside of muzzle exposed; B nose below eyes near collar."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A muzzle rises toward upper right; B muzzle drops toward lower right."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A nose above eyes and tilted chin elevated; B nose below eyes with lowered chin."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "down",
+      "reason": "A nose slightly above eye line with lifted muzzle; B nose below eyes and muzzle sloping down."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A nose at top of face, throat visible; B nose at bottom of face just above collar."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A snout points upper left; B nose droops lower left beneath eyes."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A nose hangs low left beneath eyes; B nose points upper left at or above eyes with raised chin."
+    }
+  ]
+}
